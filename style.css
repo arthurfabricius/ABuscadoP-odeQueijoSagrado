@@ -1,0 +1,70 @@
+body{
+  font-family: "Ga Maamli", sans-serif;
+  background-color: red;
+  color: blue;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align:center;
+  margin: 0;
+  font-size: 35px;
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-shadow: 4px 4px 3px white;
+  
+}
+
+footer{
+  font-family: "Exo 2", sans-serif;
+  color: white;
+  font-size: 25px;
+  
+}
+footer a{
+  text-decoration: none;
+  color:white;
+  
+}
+footer a:hover{
+  color: purple;
+  text-decoration: underline;
+  
+}
+
+button{
+  font-family: "Merriweather", serif;
+  background-color: green;
+  border: 2px solid green;
+  color: white;
+  font-size: 25px;
+  border-radius: 200px;
+  margin: 20px;
+  padding: 0.5px;
+  box-shadow: 3px 3px 4px yellow;
+}
+
+button:hover{
+  background-color: blue;
+  border-radius: 2px solid rgb(218,27,60);
+  color: black;
+}
+
+main{
+  max-width: 90%;
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  
+}
+
+img{
+  max-width: 90%;
+}
+.passo{
+  display: none;
+}
+.passo.ativo{
+  display: block;
+}
